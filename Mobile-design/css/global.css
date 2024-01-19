@@ -38,3 +38,40 @@ body {
 .mr-2 {
     margin-right: 20px;
 }
+
+.padding-title{
+    padding: 14px 50px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+.padding-price{
+    padding: 8px 50px;
+    text-align: center;
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+    border: 1px solid rgb(169, 169, 169);
+}
+
+.padding-dolla{
+    padding: 14px 50px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid rgb(169, 169, 169);
+    color: rgb(96, 96, 96);
+}
+
+.padding-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 15px;
+    border: none;
+    justify-content: space-around;
+    margin-top: 20px;   
+    cursor: pointer;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}

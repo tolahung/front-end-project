@@ -187,4 +187,86 @@ button i{
     color: white;
 }
 
-/* ====image-header======= */
+/* ====pricing======= */
+
+.pricing-title{
+    width: 300px;
+    /* background-color: red; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pricing-title h1{
+    font-size: 40px;
+    padding-top: 30px;
+    color: black;
+}
+
+.pricing-title p{
+    font-size: 10px;
+    color: black;
+    margin-top: 10px;
+}
+
+.table{
+    display: flex;
+    flex: 1;
+    margin-top: 30px;
+}
+
+.content-left{
+    flex: 1;
+    /* background-color: blue; */
+    padding: 10px;
+
+}
+
+.basic-table{
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+.content-right{
+ flex: 1;
+ /* background-color: red; */
+ padding: 10px;
+}
+
+.premium-table{
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* button */
+
+.box-button{
+    border: 1px solid rgb(169, 169, 169);
+    padding: 10px ;
+    background-color: rgb(222, 222, 222);
+  
+}
+
+
+/* ====footer======= */
+
+footer{
+    height: 100px;
+    background-color: rgb(222, 222, 222);
+    margin-top: 30px;
+}
+
+
+.icon-show{
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer p{
+    text-align: center;
+    color: rgb(84, 84, 84);
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+footer p a{
+    color: rgb(84, 84, 84);
+}
